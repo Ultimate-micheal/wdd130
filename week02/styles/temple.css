@@ -1,56 +1,52 @@
-#note: the line height is note really necesary for this assignment
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
-    font-family: arial, sans-serif;
-    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: arial, Arial, Helvetica, sans-serif sans-serif;
 }
 
 
 header {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
-}
-
-main {
-    width: 400px;
-    margin: 0 auto;
+    font-size: 1.35rem;
 }
 
 h1 {
-    margin: 10px;
     text-align: center;
+    font-size: 2.25rem;
 }
 
-h2 {
-    border-bottom: 1px solid #222;
-}
-img {
-    width: 100%;
+picture img {
+    width: 400px;
     height: auto;
-    box-shadow: 0 0 30px #333;
+    margin: 0 auto;
+    box-shadow: 0 -3px 25px #333;
+    display: block;
 }
 
 section {
-    margin: 20px 0;
-    border: 1px solid rgb(0 0 0 / 10%);
-    padding: 10px;
-    background-color: #abe;
-    font-size: .9rem;
+    margin: 0 auto;
+    max-width: 370px;
+    padding: 10px 15px;
+    background-color: #DBDBDB;
+    margin-top: 25px;
+    border: 2px solid #ADADAD;
+}
+
+section h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
 }
  
 section p{
-    margin: 10px;
+    padding: 0 10px;
 }
 footer {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
+    color: #fff;
+    padding: 2px;
     text-align: center;
-    font-size: .9rem;
+    margin-top: 25px;
 }
