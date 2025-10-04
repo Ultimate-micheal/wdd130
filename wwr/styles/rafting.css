@@ -59,7 +59,7 @@ h1 {
 
 article {
     position: relative;
-    text-decoration-style: none;
+    text-decoration-style: solid;
 }
 
 .hero article img {
