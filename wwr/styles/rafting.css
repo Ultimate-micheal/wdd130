@@ -56,34 +56,34 @@ nav, p, section, article {
     width: 100%;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.9;
-    background-color: var(--ascent1-color);
+    background-color: var(--ascent2-color);
     color: #fff;
 }
 
 
-.article {
+.hero article {
     position: absolute;
     bottom: 20px;
     padding: 20px;
     border-radius: 8px;
 }
 
-.article img  {
+.hero article img  {
     width: 125px;
     float: right;
     
 }
-.article p {
+.hero article p {
     margin-top: 0;
     font-weight: bold;
-    background_color: var(--ascent1-color);
+    background_color: var(--secondary-color);
     opacity: 0.9;
     color: white;
 }
