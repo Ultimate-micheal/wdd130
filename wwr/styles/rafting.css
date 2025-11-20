@@ -23,9 +23,17 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: #fff;
+    background-color: var(--ascent1-color);
+    text-align: center;
+    clear: both;
 }
 
 nav, p, section, article {
@@ -38,13 +46,14 @@ nav, p, section, article {
 }
 
 .hero {
+    display: table;
     position: relative;
+    height: auto;
 }
 
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
 }
 
 h1 {
@@ -53,7 +62,32 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--ascent1-color);
     color: #fff;
+}
+
+
+.article {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.article img  {
+    width: 125px;
+    float: right;
+    
+}
+.article p {
+    margin-top: 0;
+    font-weight: bold;
+    background_color: var(--ascent1-color);
+    opacity: 0.9;
+    color: white;
+}
+
+footer {
+    border-top: 1px solid #000;
 }
