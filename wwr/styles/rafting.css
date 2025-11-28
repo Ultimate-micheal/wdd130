@@ -126,7 +126,7 @@ footer {
     border: 1px solid black;
     text-align: center;
 }
->
+
 .footer p {
     border-left: black;
 }
@@ -146,4 +146,41 @@ footer {
 .section1 img{
    width: 80%;
    justify-items: center;
+}
+
+.section2{
+    display: grid;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 0 30px 0;
+}
+
+
+.gallery
+{
+    width: 100%;
+}
+/*.gallery figure
+{
+    width: 18%; 
+   /* display: inline-block;
+   float: left;
+   padding: 0 5px;
+}*/
+.gallery figure {
+   width: 18%;
+   float: left;
+}
+.gallery figure img
+{
+    width: 100%;
+    vertical-align: top;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 9px;
+    justify-content: center;
+}
+.section2 h2 {
+    margin-bottom: 10px;
 }
